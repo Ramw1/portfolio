@@ -143,6 +143,7 @@ main p {
     }
     table.koulu{
         width: 100%;
+        margin: 3em 0;
         
     }
 }
@@ -188,31 +189,31 @@ main p {
 
 .info {
     display: block;
+    justify-content: center;
+    text-align: center;
 }
 /*koulutus tiedot ja  kuvat*/
 .koulu img {
-    max-height: 9em;
-    display: block;
+    max-height: 8em;
+    display: inline-block;
     margin-bottom: 3em;
     min-height: 6em;
+    
 
 }
 .koulu{
     width: 33%; 
-    float: left;
-    display: inline-block;
+    display: inline-table;
     text-align: center;
     overflow: hidden;
     padding: 2px;
     min-height: 10em;
-
 }
+
 table, tr, td {
+    width: 29%;
 
-    width: 100%;
-    align-content: center;
-    
-}
+}  
 
-}
+
 
